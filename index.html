@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Банкир 24</title>
+  <link rel="preload" href="fonts/RFDewiRegular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/RFDewiSemibold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/RFDewiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/RFDewiUltrabold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/RFDewiExpandedLight.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/RFDewiExpandedSemibold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/RFDewiExpandedBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header" id="header">
+  <div class="header__container container">
+    <div class="header__top">
+      <a href="index.html" class="header__logo">
+        <img src="img/logo.svg" alt="Логотип">
+      </a>
+      <div class="header__right">
+        <nav class="header__nav nav" title="Header Navigation Menu">
+          <ul class="list-reset nav__list">
+            <li class="nav__item">
+              <a href="credit.html" class="nav__link">Кредиты</a>
+              <img src="img/nav/nav-1.svg" alt="" class="nav__img">
+            </li>
+            <li class="nav__item">
+              <a href="about.html" class="nav__link">О компании</a>
+              <img src="img/nav/nav-2.svg" alt="" class="nav__img">
+            </li>
+            <li class="nav__item">
+              <a href="comment.html" class="nav__link">Отзывы клиентов</a>
+              <img src="img/nav/nav-3.svg" alt="" class="nav__img">
+            </li>
+          </ul>
+          <a href="tel:+88002509293" class="header__consultation consultation">
+            <span class="consultation__title">Бесплатная консультация</span>
+            <div class="consultation__bottom">
+              <img src="img/application/application-2.svg" alt="Icon phone" class="consultation__img">
+              <span class="consultation__number">8 (800) 250 92 93</span>
+            </div>
+          </a>
+        </nav>
+        <div class="header__contacts">
+          <a href="#" class="header__application">Срочная заявка</a>
+          <a href="tel:+88002509293" class="header__tel">8 (800) 250 92 93</a>
+        </div>
+        <button class="header__burger burger btn-reset">
+          <span class="burger__line"></span>
+        </button>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <div class="header__line-left"></div>
+      <ul class="header__money money list-reset">
+        <li class="money__item">
+          <img src="img/money/USD.svg" alt="Usd" class="money__img">
+          <div class="money__text">
+            <span class="money__currency">USD</span>
+            <span class="money__exchange">92.3218</span>
+          </div>
+          <span class="money__bank">ЦБ</span>
+        </li>
+        <li class="money__item">
+          <img src="img/money/EUR.svg" alt="Usd" class="money__img">
+          <div class="money__text">
+            <span class="money__currency">EUR</span>
+            <span class="money__exchange">98.3218</span>
+          </div>
+          <span class="money__bank">ЦБ</span>
+        </li>
+        <li class="money__item">
+          <img src="img/money/CNY.svg" alt="Usd" class="money__img">
+          <div class="money__text">
+            <span class="money__currency">CNY</span>
+            <span class="money__exchange">12.3218</span>
+          </div>
+          <span class="money__bank">ЦБ</span>
+        </li>
+      </ul>
+      <div class="header__line-right"></div>
+    </div>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="hero" id="hero">
+  <div class="hero__container container">
+    <div class="hero__left">
+      <div class="swiper title__swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <h1 class="hero__title"><span class="hero__title_blue">Кредит</span> под залог жилой или коммерческой
+              недвижимости <span class="hero__title_blue">с любой кредитной историей</span></h1>
+          </div>
+          <div class="swiper-slide">
+            <h1 class="hero__title"><span class="hero__title_orange">Рефинансирование</span> — Снижение % ставки —
+              Увеличение
+              суммы — Отсрочка платежа</h1>
+          </div>
+          <div class="swiper-slide">
+            <h1 class="hero__title"><span class="hero__title_green">Займ</span> под залог любой недвижимости</span></h1>
+          </div>
+        </div>
+      </div>
+      <ul class="hero__conditions conditions list-reset">
+        <li class="conditions__item">
+          <img src="img/condition/condition-1.svg" alt="" class="conditions__img">
+          <p class="conditions__descr">Нужен только <span
+              class="conditions__descr conditions__descr_blue">паспорт</span></p>
+        </li>
+        <li class="conditions__item">
+          <img src="img/condition/condition-2.svg" alt="" class="conditions__img">
+          <p class="conditions__descr">Решение от 1 часа — кредит <span
+              class="conditions__descr conditions__descr_blue">в день сделки</span></p>
+        </li>
+        <li class="conditions__item">
+          <img src="img/condition/condition-3.svg" alt="" class="conditions__img">
+          <p class="conditions__descr">До <strong class="conditions__descr conditions__descr_blue">150 млн ₽</strong> —
+            максимальная сумма</p>
+        </li>
+        <li class="conditions__item">
+          <img src="img/condition/condition-4.svg" alt="" class="conditions__img">
+          <p class="conditions__descr"><span class="conditions__descr conditions__descr_blue">До 30 лет</span> —
+            досрочное погашение в любое время</p>
+        </li>
+        <li class="conditions__item">
+          <img src="img/condition/condition-5.svg" alt="" class="conditions__img">
+          <p class="conditions__descr">Залог — <span class="conditions__descr conditions__descr_blue">любая
+              недвижимость</span></p>
+        </li>
+        <li class="conditions__item">
+          <img src="img/condition/condition-6.svg" alt="" class="conditions__img">
+          <p class="conditions__descr"><span class="conditions__descr conditions__descr_blue">Кредит без справок о
+              доходах</span> и подтверждения трудоустройства</p>
+        </li>
+      </ul>
+    </div>
+    <div class="hero__right">
+      <div class="hero__top credit">
+        <ul class="credit__list list-reset">
+          <li class="credit__item">
+            <img src="img/credit/credit-1.svg" alt="" class="credit__img">
+            <p class="credit__descr">Кредит физическим и юридическим лицам</p>
+          </li>
+          <li class="credit__item">
+            <img src="img/credit/credit-2.svg" alt="" class="credit__img">
+            <p class="credit__descr">Залог жилая и коммерческая недвижимость</p>
+          </li>
+        </ul>
+      </div>
+      <h2 class="hero__subtitle">Заполнить быстую заявку</h2>
+      <div class="hero__application application">
+        <label class="application__label">
+          <img src="img/application/application-1.svg" alt="" class="application__img">
+          <input type="text" class="application__input input-reset" name="Имя" placeholder="Имя">
+        </label>
+        <label class="application__label">
+          <img src="img/application/application-2.svg" alt="" class="application__img">
+          <input type="tel" class="application__input input-reset" name="Телефон" placeholder="+7 ___ ___ __ __">
+        </label>
+        <label class="application__checkbox custom-checkbox">
+          <input type="checkbox" class="application__field custom-checkbox__field" checked>
+          <span class="application__content custom-checkbox__content">Согласие с обработкой персональных данных</span>
+        </label>
+        <div class="application__bottom">
+          <button class="application__btn btn-reset" data-graph-path="annex">Оформить заявку</button>
+          <div class="application__security">
+            <img src="img/attention.svg" alt="" class="application__attention">
+            <p class="application__descr">Мы не рассылаем спам и не передаем ваш номер сторонним организациям</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <ul class="hero__conditions conditions-mobile list-reset">
+      <li class="conditions__item">
+        <img src="img/condition/condition-1.svg" alt="" class="conditions__img">
+        <p class="conditions__descr">Нужен только <span
+            class="conditions__descr conditions__descr_blue">паспорт</span></p>
+      </li>
+      <li class="conditions__item">
+        <img src="img/condition/condition-2.svg" alt="" class="conditions__img">
+        <p class="conditions__descr">Решение от 1 часа — кредит <span
+            class="conditions__descr conditions__descr_blue">в день сделки</span></p>
+      </li>
+      <li class="conditions__item">
+        <img src="img/condition/condition-3.svg" alt="" class="conditions__img">
+        <p class="conditions__descr">До <strong class="conditions__descr conditions__descr_blue">150 млн ₽</strong> —
+          максимальная сумма</p>
+      </li>
+      <li class="conditions__item">
+        <img src="img/condition/condition-4.svg" alt="" class="conditions__img">
+        <p class="conditions__descr"><span class="conditions__descr conditions__descr_blue">До 30 лет</span> —
+          досрочное погашение в любое время</p>
+      </li>
+      <li class="conditions__item">
+        <img src="img/condition/condition-5.svg" alt="" class="conditions__img">
+        <p class="conditions__descr">Залог — <span class="conditions__descr conditions__descr_blue">любая
+            недвижимость</span></p>
+      </li>
+      <li class="conditions__item">
+        <img src="img/condition/condition-6.svg" alt="" class="conditions__img">
+        <p class="conditions__descr"><span class="conditions__descr conditions__descr_blue">Кредит без справок о
+            доходах</span> и подтверждения трудоустройства</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="calculator">
+  <div class="calculator__container container">
+    <h2 class="calculator__title title">Bankir<span class="title_red">24</span> оказывает квалифицированную, срочную помощь в решении финансовых вопросов</h2>
+    <ul class="calculator__banners banners list-reset">
+      <li class="banners__item banners__item_orange">
+        <a href="refinancing.html" class="banners__text">
+          <h3 class="banners__title"><span class="banners__title banners__title_orange">Рефинансирование</span> больше сумма — меньше %</h3>
+          <button class="banners__btn btn-reset banners__btn_orange">Рассчитать</button>
+          <img src="img/banner/banner-1.png" alt="" class="banners__img">
+        </a>
+        <img src="img/banner/banner-1.svg" alt="" class="banners__img">
+      </li>
+      <li class="banners__item banners__item_green">
+        <a href="credit.html" class="banners__text">
+          <h3 class="banners__title"><span class="banners__title banners__title_green">Кредит</span> под залог недвижимости</h3>
+          <button class="banners__btn btn-reset banners__btn_green">Рассчитать</button>
+          <img src="img/banner/banner-2.png" alt="" class="banners__img">
+        </a>
+        <img src="img/banner/banner-2.svg" alt="" class="banners__img">
+      </li>
+      <li class="banners__item banners__item_blue">
+        <a href="loan.html" class="banners__text">
+          <h3 class="banners__title"><span class="banners__title banners__title_blue">Займ</span> под залог недвижимости</h3>
+          <button class="banners__btn banners__btn_blue btn-reset">Рассчитать</button>
+          <img src="img/banner/banner-3.png" alt="" class="banners__img">
+        </a>
+        <img src="img/banner/banner-3.svg" alt="" class="banners__img">
+      </li>
+    </ul>
+    <div class="calculator__bottom">
+      <div class="calculator__online online">
+        <h3 class="online__title">Рассчетайте <span class="online__title online__title_blue">займ</span> в онлайн калькуляторе</h3>
+        <ul class="online__list list-reset">
+          <li class="online__item">
+            <img src="img/condition/condition-1.svg" alt="" class="online__img">
+            <p class="online__descr">Нужен только <span class="online__descr online__descr_blue">паспорт</span></p>
+          </li>
+          <li class="online__item">
+            <img src="img/condition/condition-2.svg" alt="" class="online__img">
+            <p class="online__descr">Решение от 1 часа — кредит <span class="online__descr online__descr_blue">в день сделки</span></p>
+          </li>
+          <li class="online__item">
+            <img src="img/condition/condition-5.svg" alt="" class="online__img">
+            <p class="online__descr">Залог — <span class="online__descr online__descr_blue">любая недвижимость</span></p>
+          </li>
+          <li class="online__item">
+            <img src="img/condition/condition-4.svg" alt="" class="online__img">
+            <p class="online__descr"><span class="online__descr online__descr_blue">До 30 лет</span> — досрочное погашение в любое время</p>
+          </li>
+        </ul>
+      </div>
+      <div class="calculator__information information">
+        <span class="information__title">Персональные данные</span>
+        <div class="information__labels">
+          <label class="information__label">
+            <input type="text" class="information__input" name="Фамилия" placeholder="ФИО">
+          </label>
+          <label class="information__label">
+            <input type="tel" class="information__input" name="Имя" placeholder="Мобильный телефон">
+          </label>
+          <label class="information__label">
+            <input type="number" class="information__input" name="Отчество" placeholder="Сумма">
+          </label>
+        </div>
+      </div>
+      <div class="catalog__prop prop">
+
+      </div>
+      <div class="calculator__attention">
+        <img src="img/attention.svg" alt="" class="calculator__point">
+        <p class="calculator__descr">Определяется для каждого заёмщика индивидуально: ПСК от 14,000% — 45,000%, % ставка от 12,00% до 44,00% годовых. Не является публичной офертой. Пример расчёта</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="get" id="get">
+  <div class="get__container container">
+    <h2 class="het__title title">Условия получения</h2>
+    <ul class="get__list list-reset">
+      <li class="get__item">
+        <h3 class="get__subtitle">Документы для заявки:</h3>
+        <p class="get__descr">Нужен только паспорт</p>
+        <img src="img/get/get-1.svg" alt="" class="get__img">
+      </li>
+      <li class="get__item">
+        <h3 class="get__subtitle">Срок:</h3>
+        <p class="get__descr">До 30 лет — досрочное погашение в любое время</p>
+        <img src="img/get/get-2.svg" alt="" class="get__img">
+      </li>
+      <li class="get__item">
+        <h3 class="get__subtitle">Рассмотрение заявки:</h3>
+        <p class="get__descr">решение от 1 часа — кредит в день сделки</p>
+        <img src="img/get/get-3.svg" alt="" class="get__img">
+      </li>
+      <li class="get__item">
+        <h3 class="get__subtitle">Кредитная история:</h3>
+        <p class="get__descr">Положительное решение возможно с любой кредитной историей</p>
+        <img src="img/get/get-4.svg" alt="" class="get__img">
+      </li>
+      <li class="get__item">
+        <h3 class="get__subtitle">Сумма:</h3>
+        <p class="get__descr">до 150 млн ₽ — максимальная сумма</p>
+        <img src="img/get/get-5.svg" alt="" class="get__img">
+      </li>
+      <li class="get__item">
+        <h3 class="get__subtitle">Возможный залог:</h3>
+        <p class="get__descr">жилая, нежилая и коммерческая недвижимость</p>
+        <img src="img/get/get-6.svg" alt="" class="get__img">
+      </li>
+      <li class="get__item">
+        <h3 class="get__subtitle">Кредит без справок о доходах и подтверждения трудоустройства</h3>
+        <img src="img/get/get-7.svg" alt="" class="get__img">
+      </li>
+      <li class="get__item">
+        <h3 class="get__subtitle">Кредит физическим и юридическим лицам (ООО, ИП, ЗАО, АО)</h3>
+        <img src="img/get/get-8.svg" alt="" class="get__img">
+      </li>
+    </ul>
+
+  </div>
+</section>
+
+      <section class="request" id="request">
+  <div class="request__container container">
+    <h2 class="request__title title">Bankir<span class="title_red">24</span> оказывает квалифицированную, <br> срочную помощь в решении финансовых вопросов</h2>
+    <ul class="request__products products list-reset">
+      <li class="products__item">
+        <h3 class="products__title"><span class="products__title products__title_green">Кредит</span> под залог недвижимости</h3>
+        <div class="products__text">
+          <p class="products__descr">Кредит наличными на любые цели без справок о доходах и поручителей, нужен только паспорт</p>
+          <p class="products__descr">Срок кредита до 30 лет — досрочное погашение в любое время.</p>
+          <p class="products__descr">Под залог жилой, нежилой и коммерческой недвижимости</p>
+        </div>
+        <button class="products__btn btn-reset" data-graph-path="annex">Оформить заявку</button>
+      </li>
+      <li class="products__item">
+        <h3 class="products__title"><span class="products__title products__title_blue">Займ</span> под залог недвижимости</h3>
+        <div class="products__text">
+          <p class="products__descr">Займ на любые цели в течение 1 дня.</p>
+          <p class="products__descr">Можно подать заявку и получить всю сумму займа в день подписания договора</p>
+          <p class="products__descr">Положительное решение с любой кредитной историей</p>
+          <p class="products__descr">Срок займа до 10 лет — досрочное погашение в любое время</p>
+        </div>
+        <button class="products__btn btn-reset" data-graph-path="annex">Оформить заявку</button>
+      </li>
+      <li class="products__item">
+        <h3 class="products__title products__title_orange">Рефинансирование</h3>
+        <div class="products__text">
+          <p class="products__descr">Объедините кредиты и займы в один<br>+ получите дополнительную сумму</p>
+          <p class="products__descr">Больше не нужно запоминать даты и суммы платежей по всем кредитам и займам платите один раз в месяц — по выгодной ставке</p>
+          <p class="products__descr">Срок кредита до 30 лет — досрочное погашение в любое время</p>
+          <p class="products__descr">Сумма рефинансирования до 150 млн. ₽</p>
+        </div>
+        <button class="products__btn btn-reset" data-graph-path="annex">Оформить заявку</button>
+      </li>
+    </ul>
+    <h3 class="request__subtitle">Быстрая заявка</h3>
+    <div class="request__labels">
+      <label class="request__label">
+        <input type="text" class="request__input" name="Имя" placeholder="Имя*">
+      </label>
+      <label class="request__label">
+        <input type="tel" class="request__input" name="Телефон" placeholder="Мобильный телефон*">
+      </label>
+      <label class="request__label">
+        <input type="number" class="request__input" name="Сумма кредита" placeholder="Сумма кредита*">
+      </label>
+      <button class="request__btn btn-reset">Заявка</button>
+    </div>
+    <p class="request__attention">Нажимая на кнопку «Заявка на кредит», Вы соглашаетесь <a href="#" class="request__attention request__attention_blue">с условиями хранения, передачи и обработки персональных данных</a>.</p>
+  </div>
+</section>
+
+      <section class="reviews" id="reviews">
+  <div class="reviews__container container">
+    <div class="reviews__top">
+      <h2 class="reviews__title title">Отзывы о нашей компании на публичных площадках</h2>
+      <ul class="reviews__companies companies list-reset">
+        <li class="companies__item">
+          <!-- <img src="img/companies/companies-1.svg" alt=""> -->
+        </li>
+        <li class="companies__item">
+          <!-- <img src="img/companies/companies-2.svg" alt=""> -->
+        </li>
+        <li class="companies__item">
+          <!-- <img src="img/companies/companies-3.svg" alt=""> -->
+        </li>
+      </ul>
+    </div>
+    <ul class="reviews__list list-reset">
+      <li class="reviews__item">
+        <span class="reviews__name">Утюпина Наталья Валерьевна</span>
+        <p class="reviews__descr">Хочу сказать большое спасибо Айнулиной Оксане за квалифицированную помощь! Чётко,
+          быстро, понятно</p>
+        <div class="reviews__bottom">
+          <div class="reviews__rated">
+            <div class="reviews__star">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-unpainted.svg" alt="">
+            </div>
+            <span class="reviews__grade">4</span>
+          </div>
+          <span class="reviews__data">29.04.2024</span>
+        </div>
+      </li>
+      <li class="reviews__item">
+        <span class="reviews__name">Утюпина Наталья Валерьевна</span>
+        <p class="reviews__descr">Хочу сказать большое спасибо Айнулиной Оксане за квалифицированную помощь! Чётко,
+          быстро, понятно</p>
+        <div class="reviews__bottom">
+          <div class="reviews__rated">
+            <div class="reviews__star">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-unpainted.svg" alt="">
+            </div>
+            <span class="reviews__grade">4</span>
+          </div>
+          <span class="reviews__data">29.04.2024</span>
+        </div>
+      </li>
+      <li class="reviews__item">
+        <span class="reviews__name">Утюпина Наталья Валерьевна</span>
+        <p class="reviews__descr">Хочу сказать большое спасибо Айнулиной Оксане за квалифицированную помощь! Чётко,
+          быстро, понятно</p>
+        <div class="reviews__bottom">
+          <div class="reviews__rated">
+            <div class="reviews__star">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-unpainted.svg" alt="">
+            </div>
+            <span class="reviews__grade">4</span>
+          </div>
+          <span class="reviews__data">29.04.2024</span>
+        </div>
+      </li>
+      <li class="reviews__item">
+        <span class="reviews__name">Утюпина Наталья Валерьевна</span>
+        <p class="reviews__descr">Хочу сказать большое спасибо Айнулиной Оксане за квалифицированную помощь! Чётко,
+          быстро, понятно</p>
+        <div class="reviews__bottom">
+          <div class="reviews__rated">
+            <div class="reviews__star">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-unpainted.svg" alt="">
+            </div>
+            <span class="reviews__grade">4</span>
+          </div>
+          <span class="reviews__data">29.04.2024</span>
+        </div>
+      </li>
+      <li class="reviews__item">
+        <span class="reviews__name">Утюпина Наталья Валерьевна</span>
+        <p class="reviews__descr">Хочу сказать большое спасибо Айнулиной Оксане за квалифицированную помощь! Чётко,
+          быстро, понятно</p>
+        <div class="reviews__bottom">
+          <div class="reviews__rated">
+            <div class="reviews__star">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-unpainted.svg" alt="">
+            </div>
+            <span class="reviews__grade">4</span>
+          </div>
+          <span class="reviews__data">29.04.2024</span>
+        </div>
+      </li>
+      <li class="reviews__item">
+        <span class="reviews__name">Утюпина Наталья Валерьевна</span>
+        <p class="reviews__descr">Хочу сказать большое спасибо Айнулиной Оксане за квалифицированную помощь! Чётко,
+          быстро, понятно</p>
+        <div class="reviews__bottom">
+          <div class="reviews__rated">
+            <div class="reviews__star">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-unpainted.svg" alt="">
+            </div>
+            <span class="reviews__grade">4</span>
+          </div>
+          <span class="reviews__data">29.04.2024</span>
+        </div>
+      </li>
+      <li class="reviews__item">
+        <span class="reviews__name">Утюпина Наталья Валерьевна</span>
+        <p class="reviews__descr">Хочу сказать большое спасибо Айнулиной Оксане за квалифицированную помощь! Чётко,
+          быстро, понятно</p>
+        <div class="reviews__bottom">
+          <div class="reviews__rated">
+            <div class="reviews__star">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-unpainted.svg" alt="">
+            </div>
+            <span class="reviews__grade">4</span>
+          </div>
+          <span class="reviews__data">29.04.2024</span>
+        </div>
+      </li>
+      <li class="reviews__item">
+        <span class="reviews__name">Утюпина Наталья Валерьевна</span>
+        <p class="reviews__descr">Хочу сказать большое спасибо Айнулиной Оксане за квалифицированную помощь! Чётко,
+          быстро, понятно</p>
+        <div class="reviews__bottom">
+          <div class="reviews__rated">
+            <div class="reviews__star">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-unpainted.svg" alt="">
+            </div>
+            <span class="reviews__grade">4</span>
+          </div>
+          <span class="reviews__data">29.04.2024</span>
+        </div>
+      </li>
+      <li class="reviews__item">
+        <span class="reviews__name">Утюпина Наталья Валерьевна</span>
+        <p class="reviews__descr">Хочу сказать большое спасибо Айнулиной Оксане за квалифицированную помощь! Чётко,
+          быстро, понятно</p>
+        <div class="reviews__bottom">
+          <div class="reviews__rated">
+            <div class="reviews__star">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-unpainted.svg" alt="">
+            </div>
+            <span class="reviews__grade">4</span>
+          </div>
+          <span class="reviews__data">29.04.2024</span>
+        </div>
+      </li>
+      <li class="reviews__item">
+        <span class="reviews__name">Утюпина Наталья Валерьевна</span>
+        <p class="reviews__descr">Хочу сказать большое спасибо Айнулиной Оксане за квалифицированную помощь! Чётко,
+          быстро, понятно</p>
+        <div class="reviews__bottom">
+          <div class="reviews__rated">
+            <div class="reviews__star">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-unpainted.svg" alt="">
+            </div>
+            <span class="reviews__grade">4</span>
+          </div>
+          <span class="reviews__data">29.04.2024</span>
+        </div>
+      </li>
+      <li class="reviews__item">
+        <span class="reviews__name">Утюпина Наталья Валерьевна</span>
+        <p class="reviews__descr">Хочу сказать большое спасибо Айнулиной Оксане за квалифицированную помощь! Чётко,
+          быстро, понятно</p>
+        <div class="reviews__bottom">
+          <div class="reviews__rated">
+            <div class="reviews__star">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-unpainted.svg" alt="">
+            </div>
+            <span class="reviews__grade">4</span>
+          </div>
+          <span class="reviews__data">29.04.2024</span>
+        </div>
+      </li>
+      <li class="reviews__item">
+        <span class="reviews__name">Утюпина Наталья Валерьевна</span>
+        <p class="reviews__descr">Хочу сказать большое спасибо Айнулиной Оксане за квалифицированную помощь! Чётко,
+          быстро, понятно</p>
+        <div class="reviews__bottom">
+          <div class="reviews__rated">
+            <div class="reviews__star">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-shaded.svg" alt="">
+              <img src="img/rate/star-unpainted.svg" alt="">
+            </div>
+            <span class="reviews__grade">4</span>
+          </div>
+          <span class="reviews__data">29.04.2024</span>
+        </div>
+      </li>
+    </ul>
+    <div class="reviews__btn">
+      <button class="reviews__show btn-reset">Показать еще</button>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer" id="footer">
+  <div class="footer__container container">
+    <div class="footer__top">
+      <div class="footer__contacts">
+        <a href="#" class="footer__logo">
+          <img src="img/logo.svg" alt="">
+        </a>
+        <div class="footer__connection ">
+          <span class="footer__contact">Телефон для связи</span>
+          <a href="tel:+88002509293" class="footer__contact">8 (800) 250 92 93</a>
+        </div>
+        <div class="footer__quality">
+          <span class="footer__contact">Контроль качества</span>
+          <a href="tel:88612400041" class="footer__contact">8 (861) 240-00-41</a>
+        </div>
+        <img src="img/bank.svg" alt="">
+      </div>
+      <div class="footer__finance">
+        <h3 class="footer__title">Финансовые продуты</h3>
+        <ul class="footer__list list-reset">
+          <li class="footer__item"><a href="credit.html" class="footer__link">Кредит под залог недвижимости</a></li>
+          <li class="footer__item"><a href="loan.html" class="footer__link">Займ под залог недвижимости</a></li>
+          <li class="footer__item"><a href="refinancing.html" class="footer__link">Рефинансирование</a></li>
+        </ul>
+      </div>
+      <div class="footer__abouts">
+        <h3 class="footer__title">О компании</h3>
+        <ul class="footer__list list-reset">
+          <li class="footer__item"><a href="#" class="footer__link">Юридические данные</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Договорная база</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Оферта</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Обработка персональных данных</a></li>
+        </ul>
+      </div>
+      <div class="footer__info">
+        <h3 class="footer__title">Информация</h3>
+        <ul class="footer__list list-reset">
+          <li class="footer__item"><a href="#" class="footer__link">Контакты</a></li>
+          <li class="footer__item"><a href="#" class="footer__link">Реквизиты</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer__license">АО «АБ„РОССИЯ“ Генеральная лицензия Банка России № 328 от 01.09.2016 г.</p>
+    <p class="footer__attention">Представленные данные на сайте не являются публичной офертой, ООО «Фонд Финансирования»
+      не кредитная организация, работает на основании договоров о сотрудничестве с банками партнерами, МКК, КПК, НДКО,
+      ломбардами, страховыми компаниями, лизинговыми компаниями, кассами взаимопомощи, инвестиционными фондами.</p>
+  </div>
+  <div class="footer__copyright copyright">
+    <div class="copyright__container container">
+      <div class="copyright__datas">
+        <p class="copyright__ooo">© 2009 — 2024 ООО «Банкир24».</p>
+        <p class="copyright__ooo">Все права защищены.</p>
+      </div>
+      <div class="copyright__holders">
+        <p class="copyright__holder">Правообладателем является ООО «Банкир24».</p>
+        <p class="copyright__holder">Полное или частичное копирование материалов сайта без согласия правообладателя
+          запрещено</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <div class="graph-modal">
+  <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="annex">
+    <button class="btn-reset graph-modal__close graph-modal__close_blue js-modal-close"
+      aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content annex">
+      <h2 class="annex__title">Заполнить срочную заявку</h2>
+      <div class="annex__content  content">
+        <label class="annex__label">
+          <input type="text" class="annex__input input-reset" name="Имя" placeholder="Имя*">
+        </label>
+        <label class="annex__label">
+          <input type="tel" class="annex__input input-reset" name="Телефон" placeholder="Мобильный телефон*">
+        </label>
+        <button class="annex__btn btn-reset">Оформить заявку</button>
+        <p class="annex__descr">Нажимая на кнопку «Заявка на кредит», Вы соглашаетесь <a href="#"
+            class="annex__descr annex__descr_blue">с условиями хранения, передачи и обработки персональных данных.</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="number">
+    <button class="btn-reset graph-modal__close graph-modal__close_orange js-modal-close"
+      aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content number">
+      <div class="graph-modal__content number">
+        <h2 class="number__title">Подтвердите номер телефона</h2>
+        <div class="number__content content">
+          <div class="number__bottom">
+            <p class="number__descr">Вам отправлено СМС сообщение с кодом подтверждения</p>
+            <label class="number__label">
+              <input type="number" class="number__input input-reset" name="Код" placeholder="Введите 4-х значный код*">
+            </label>
+            <button class="number__btn btn-reset">Отправить</button>
+          </div>
+          <div class="number__code">
+            <p class="number__reuse">Отправить код повторно через:</p>
+            <span class="number__time">0:47</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="completed">
+    <button class="btn-reset graph-modal__close graph-modal__close_green js-modal-close"
+      aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content completed">
+      <h2 class="completed__title">Заявка успешно оформлена</h2>
+      <div class="completed__content content">
+        <div class="completed__top">
+          <div class="completed__item">
+            <span class="completed__type">Номер заявки:</span>
+            <span class="completed__value">1234321</span>
+          </div>
+          <div class="completed__item">
+            <span class="completed__type">Ваш менеджер:</span>
+            <span class="completed__value">Алексндр Сидоров</span>
+          </div>
+          <div class="completed__item">
+            <span class="completed__type">Телефон:</span>
+            <span class="completed__value">+7 999 999-99-99</span>
+          </div>
+          <div class="completed__item">
+            <span class="completed__type">Email:</span>
+            <span class="completed__value">email@mail.ru</span>
+          </div>
+        </div>
+        <p class="completed__descr">В ближайшее время с Вами свяжется менеджер для оформления заявки</p>
+        <div class="completed__bottom">
+          <img src="img/attention-red.svg" alt="" class="completed__attention">
+          <div class="completed__text">
+            <p class="completed__note">Уважаемый клиент, <br> <span
+                class="completed__note completed__note_red">участились случаи мошенничества</span></p>
+            <p class="completed__note">Не переводите деньги незнакомым людям</p>
+            <p class="completed__note">Подробнее о защите от мошенничества на сайте <a href="#"
+                class="completed__note completed__note_blue">Центрально банка РФ https://cbr.ru</a></p>
+            <p class="completed__note">В случае возникновения вопросов или сомнительных ситуация, обратитесь к своему
+              менеджеру</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="deposit">
+    <button class="btn-reset graph-modal__close graph-modal__close_blue js-modal-close"
+      aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content deposit">
+      <h2 class="deposit__title">Возможные объекты залога</h2>
+      <ul class="deposit__list content list-reset">
+        <li class="deposit__item">Жилая недвижимость
+          <ul class="deposit__sublist list-reset">
+            <li class="deposit__subitem">Жилой дом</li>
+            <li class="deposit__subitem">Таунхаус</li>
+            <li class="deposit__subitem">Дуплекс</li>
+            <li class="deposit__subitem">Деревянный дом</li>
+            <li class="deposit__subitem">Квартира</li>
+            <li class="deposit__subitem">Апартаменты</li>
+            <li class="deposit__subitem">Комната</li>
+            <li class="deposit__subitem">Многоквартирный дом</li>
+          </ul>
+        </li>
+        <li class="deposit__item">Долевая собственность</li>
+        <li class="deposit__item">Земельный участок
+          <ul class="deposit__sublist list-reset">
+            <li class="deposit__subitem">С жилым строением</li>
+            <li class="deposit__subitem">Под ИЖС (индивидуальное жилищное строительство)</li>
+            <li class="deposit__subitem">Под ЗНП (земли населенных пунктов)</li>
+            <li class="deposit__subitem">Сельхоз назначения</li>
+            <li class="deposit__subitem">Промышленного назначения</li>
+          </ul>
+        </li>
+        <li class="deposit__item">Коммерческая недвижимость
+          <ul class="deposit__sublist list-reset">
+            <li class="deposit__subitem">Офисное помещение</li>
+            <li class="deposit__subitem">Помещение общепита</li>
+            <li class="deposit__subitem">Торговое помещение</li>
+            <li class="deposit__subitem">Сервисное помещение</li>
+            <li class="deposit__subitem">Производственное помещение</li>
+            <li class="deposit__subitem">Складское помещение</li>
+            <li class="deposit__subitem">Помещение гостиничного назначения</li>
+          </ul>
+        </li>
+        <li class="deposit__item">Машиноместо
+          <ul class="deposit__sublist list-reset">
+            <li class="deposit__subitem">Гараж</li>
+            <li class="deposit__subitem">Место на парковке</li>
+          </ul>
+        </li>
+        <li class="deposit__item">Объект незавершенного строительства</li>
+        <li class="deposit__item">ДДУ (вид договора)</li>
+        <li class="deposit__item">Иной объект</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="legal">
+    <button class="btn-reset graph-modal__close js-modal-close" aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content legal">
+      <h2 class="legal__title">Юридические данные</h2>
+      <div class="legal__content content">
+        <ul class="legal__list list-reset">
+          <li class="legal__item">
+            <span class="legal__type">Название:</span>
+            <span class="legal__value">ООО «Банкир24»</span>
+          </li>
+          <li class="legal__item">
+            <span class="legal__type">ИНН:</span>
+            <span class="legal__value">2308254964</span>
+          </li>
+          <li class="legal__item">
+            <span class="legal__type">КПП:</span>
+            <span class="legal__value">230801001</span>
+          </li>
+          <li class="legal__item">
+            <span class="legal__type">ОГРН:</span>
+            <span class="legal__value">1182375024952</span>
+          </li>
+          <li class="legal__item">
+            <span class="legal__type">р/сч.:</span>
+            <span class="legal__value">40701810230000000156</span>
+          </li>
+          <li class="legal__item">
+            <span class="legal__type">Банк:</span>
+            <span class="legal__value">в КРАСНОДАРСКОЕ ОТДЕЛЕНИЕ № 8619 ПАО СБЕРБАНК</span>
+          </li>
+          <li class="legal__item">
+            <span class="legal__type">БИК:</span>
+            <span class="legal__value">040349602</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="offer">
+    <button class="btn-reset graph-modal__close graph-modal__close_blue js-modal-close"
+      aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content offer">
+      <h2 class="offer__title">Оферта</h2>
+      <div class="offer__content content">
+        <p class="offer__descr">Представленные данные на сайте не являются публичной офертой, ООО «Банкир24» не
+          кредитная организация, работает на основании договоров о сотрудничестве с банками партнерами, МКК, КПК, НДКО,
+          ломбардами, страховыми компаниями, лизинговыми компаниями, кассами взаимопомощи, инвестиционными фондами.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="client">
+    <button class="btn-reset graph-modal__close graph-modal__close_orange js-modal-close"
+      aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content client">
+      <h2 class="client__title">Утюпина Наталья Валерьевна</h2>
+      <div class="client__content content">
+        <p class="client__name">Утюпина Наталья Валерьевна</p>
+        <p class="client__reviews">Хочу сказать большое спасибо Айнулиной Оксане за квалифицированную помощь! Чётко,
+          быстро, понятно)))</p>
+        <ul class="client__grade grade list-reset">
+          <li class="grade__item">
+            <span class="grade__title">Качество консультации</span>
+            <div class="grade__bottom">
+              <div class="grade__stars">
+                <img src="img/rate/star-shaded.svg" alt="" class="grade__img">
+                <img src="img/rate/star-shaded.svg" alt="" class="grade__img">
+                <img src="img/rate/star-shaded.svg" alt="" class="grade__img">
+                <img src="img/rate/star-shaded.svg" alt="" class="grade__img">
+                <img src="img/rate/star-unpainted.svg" alt="" class="grade__img">
+              </div>
+              <span class="grade__number">4</span>
+            </div>
+          </li>
+          <li class="grade__item">
+            <span class="grade__title">Заинтересованность в клиенте</span>
+            <div class="grade__bottom">
+              <div class="grade__stars">
+                <img src="img/rate/star-shaded.svg" alt="" class="grade__img">
+                <img src="img/rate/star-shaded.svg" alt="" class="grade__img">
+                <img src="img/rate/star-shaded.svg" alt="" class="grade__img">
+                <img src="img/rate/star-shaded.svg" alt="" class="grade__img">
+                <img src="img/rate/star-unpainted.svg" alt="" class="grade__img">
+              </div>
+              <span class="grade__number">4</span>
+            </div>
+          </li>
+          <li class="grade__item">
+            <span class="grade__title">Условия кредитных продуктов</span>
+            <div class="grade__bottom">
+              <div class="grade__stars">
+                <img src="img/rate/star-shaded.svg" alt="" class="grade__img">
+                <img src="img/rate/star-shaded.svg" alt="" class="grade__img">
+                <img src="img/rate/star-shaded.svg" alt="" class="grade__img">
+                <img src="img/rate/star-shaded.svg" alt="" class="grade__img">
+                <img src="img/rate/star-unpainted.svg" alt="" class="grade__img">
+              </div>
+              <span class="grade__number">4</span>
+            </div>
+          </li>
+        </ul>
+        <span class="client__answer">Ответ компании</span>
+        <ul class="client__list list-reset">
+          <li class="client__item">
+            <span class="client__type">Менеджер:</span>
+            <span class="client__value">Королёва Елена</span>
+          </li>
+          <li class="client__item">
+            <span class="client__type">Сумма:</span>
+            <span class="client__value">2 750 000 руб.</span>
+          </li>
+          <li class="client__item">
+            <span class="client__type">Цель:</span>
+            <span class="client__value">Развитие бизнеса</span>
+          </li>
+          <li class="client__item">
+            <span class="client__type">Срок:</span>
+            <span class="client__value">20 лет</span>
+          </li>
+        </ul>
+        <div class="client__bottom">
+          <span class="addition">Дополнение:</span>
+          <p class="client__text">Юлия, спасибо за приятный отзыв. Одобрили нужную сумму под хороший процент.
+            Обращайтесь снова и рекомендуйте нас друзьям!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="document1">
+    <button class="btn-reset graph-modal__close js-modal-close"
+      aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content">
+      <img src="img/document/document-1.png" alt="Лицения">
+    </div>
+  </div>
+
+  <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="document2">
+    <button class="btn-reset graph-modal__close js-modal-close"
+      aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content">
+      <img src="img/document/document-2.png" alt="Лицения">
+    </div>
+  </div>
+</div>
+
+  </div>
+</body>
+
+</html>
